@@ -1,0 +1,561 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (1.2ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (1.0ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mSQL (598.1ms)[0m  [1mINSERT INTO "repos" ("cached_category_list", "cached_child_list", "cached_language_list", "created_at", "description", "forks", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "label", "name", "owner", "update_success", "updated_at", "watchers") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["cached_category_list", ""], ["cached_child_list", ""], ["cached_language_list", ""], ["created_at", Mon, 27 Aug 2012 22:09:01 UTC +00:00], ["description", nil], ["forks", 0], ["full_name", "rails/rails"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["label", nil], ["name", nil], ["owner", nil], ["update_success", false], ["updated_at", Mon, 27 Aug 2012 22:09:01 UTC +00:00], ["watchers", 0]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.7ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mRepo Load (0.7ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."full_name" IN (NULL)[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRepo Exists (0.7ms)[0m  SELECT 1 AS one FROM "repos" WHERE ("repos"."full_name" = 'rails/rails' AND "repos"."id" != 1) LIMIT 1
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mRepo Load (0.3ms)[0m  SELECT "repos".* FROM "repos" WHERE "repos"."full_name" IN (NULL)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (1.2ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.9ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mSQL (3.6ms)[0m  [1mINSERT INTO "repos" ("cached_category_list", "cached_child_list", "cached_language_list", "created_at", "description", "forks", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "label", "name", "owner", "update_success", "updated_at", "watchers") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["cached_category_list", ""], ["cached_child_list", ""], ["cached_language_list", ""], ["created_at", Mon, 27 Aug 2012 22:09:38 UTC +00:00], ["description", nil], ["forks", 0], ["full_name", "rails/rails"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["label", nil], ["name", nil], ["owner", nil], ["update_success", false], ["updated_at", Mon, 27 Aug 2012 22:09:38 UTC +00:00], ["watchers", 0]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.6ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.6ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mRepo Load (0.6ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."full_name" IN (NULL)[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (1.3ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (1.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mSQL (3.4ms)[0m  [1mINSERT INTO "repos" ("cached_category_list", "cached_child_list", "cached_language_list", "created_at", "description", "forks", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "label", "name", "owner", "update_success", "updated_at", "watchers") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["cached_category_list", ""], ["cached_child_list", ""], ["cached_language_list", ""], ["created_at", Mon, 27 Aug 2012 22:10:06 UTC +00:00], ["description", nil], ["forks", 0], ["full_name", "rails/rails"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["label", nil], ["name", nil], ["owner", nil], ["update_success", false], ["updated_at", Mon, 27 Aug 2012 22:10:06 UTC +00:00], ["watchers", 0]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.6ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mRepo Load (0.9ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."full_name" IN (NULL)[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (1.2ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (1.0ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mSQL (3.4ms)[0m  [1mINSERT INTO "repos" ("cached_category_list", "cached_child_list", "cached_language_list", "created_at", "description", "forks", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "label", "name", "owner", "update_success", "updated_at", "watchers") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["cached_category_list", ""], ["cached_child_list", ""], ["cached_language_list", ""], ["created_at", Mon, 27 Aug 2012 22:18:00 UTC +00:00], ["description", nil], ["forks", 0], ["full_name", "rails/rails"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["label", nil], ["name", nil], ["owner", nil], ["update_success", false], ["updated_at", Mon, 27 Aug 2012 22:18:00 UTC +00:00], ["watchers", 0]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.6ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.4ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mRepo Load (0.8ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."full_name" IN (NULL)[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (1.2ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (1.0ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mSQL (3.3ms)[0m  [1mINSERT INTO "repos" ("cached_category_list", "cached_child_list", "cached_language_list", "created_at", "description", "forks", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "label", "name", "owner", "update_success", "updated_at", "watchers") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["cached_category_list", ""], ["cached_child_list", ""], ["cached_language_list", ""], ["created_at", Mon, 27 Aug 2012 22:19:09 UTC +00:00], ["description", nil], ["forks", 0], ["full_name", "rails/rails"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["label", nil], ["name", nil], ["owner", nil], ["update_success", false], ["updated_at", Mon, 27 Aug 2012 22:19:09 UTC +00:00], ["watchers", 0]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.6ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mRepo Load (0.6ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."full_name" IN (NULL)[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (0.9ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mActsAsTaggableOn::Tag Load (1.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRepo Exists (0.5ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mSQL (3.5ms)[0m  INSERT INTO "repos" ("cached_category_list", "cached_child_list", "cached_language_list", "created_at", "description", "forks", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "label", "name", "owner", "update_success", "updated_at", "watchers") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"  [["cached_category_list", ""], ["cached_child_list", ""], ["cached_language_list", ""], ["created_at", Mon, 27 Aug 2012 22:25:16 UTC +00:00], ["description", nil], ["forks", 0], ["full_name", "rails/rails"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["label", nil], ["name", nil], ["owner", nil], ["update_success", false], ["updated_at", Mon, 27 Aug 2012 22:25:16 UTC +00:00], ["watchers", 0]]
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.7ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (1.3ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mRepo Load (0.6ms)[0m  SELECT "repos".* FROM "repos" WHERE "repos"."full_name" IN (NULL)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (1.2ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (1.6ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mSQL (7.2ms)[0m  [1mINSERT INTO "repos" ("cached_category_list", "cached_child_list", "cached_language_list", "created_at", "description", "forks", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "label", "name", "owner", "update_success", "updated_at", "watchers") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["cached_category_list", ""], ["cached_child_list", ""], ["cached_language_list", ""], ["created_at", Mon, 27 Aug 2012 22:26:26 UTC +00:00], ["description", nil], ["forks", 0], ["full_name", "rails/rails"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["label", nil], ["name", nil], ["owner", nil], ["update_success", false], ["updated_at", Mon, 27 Aug 2012 22:26:26 UTC +00:00], ["watchers", 0]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.8ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.6ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mRepo Load (0.6ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."full_name" IN (NULL)[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRepo Exists (0.8ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.7ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRepo Exists (0.5ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mActsAsTaggableOn::Tag Load (3.8ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36m (2.7ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRepo Exists (4.7ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" IS NULL LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (0.8ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" IS NULL LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRepo Exists (0.5ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.6ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mSQL (78.2ms)[0m  INSERT INTO "repos" ("cached_category_list", "cached_child_list", "cached_language_list", "created_at", "description", "forks", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "label", "name", "owner", "update_success", "updated_at", "watchers") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"  [["cached_category_list", ""], ["cached_child_list", ""], ["cached_language_list", ""], ["created_at", Mon, 27 Aug 2012 22:29:45 UTC +00:00], ["description", nil], ["forks", 0], ["full_name", "rails/rails"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["label", nil], ["name", nil], ["owner", nil], ["update_success", false], ["updated_at", Mon, 27 Aug 2012 22:29:45 UTC +00:00], ["watchers", 0]]
+  [1m[36mActsAsTaggableOn::Tag Load (0.7ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.6ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.7ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mRepo Load (1.1ms)[0m  SELECT "repos".* FROM "repos" WHERE "repos"."full_name" IN (NULL)
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (0.9ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mActsAsTaggableOn::Tag Load (1.3ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRepo Exists (0.5ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mSQL (49.7ms)[0m  INSERT INTO "repos" ("cached_category_list", "cached_child_list", "cached_language_list", "created_at", "description", "forks", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "label", "name", "owner", "update_success", "updated_at", "watchers") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"  [["cached_category_list", ""], ["cached_child_list", ""], ["cached_language_list", ""], ["created_at", Mon, 27 Aug 2012 22:30:54 UTC +00:00], ["description", nil], ["forks", 0], ["full_name", "rails/rails"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["label", nil], ["name", nil], ["owner", nil], ["update_success", false], ["updated_at", Mon, 27 Aug 2012 22:30:54 UTC +00:00], ["watchers", 0]]
+  [1m[36mActsAsTaggableOn::Tag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mRepo Load (0.6ms)[0m  SELECT "repos".* FROM "repos" WHERE "repos"."full_name" IN (NULL)
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mActsAsTaggableOn::Tag Load (1.3ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRepo Exists (0.8ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mRepo Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.6ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mSQL (3.4ms)[0m  [1mINSERT INTO "repos" ("cached_category_list", "cached_child_list", "cached_language_list", "created_at", "description", "forks", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "label", "name", "owner", "update_success", "updated_at", "watchers") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["cached_category_list", ""], ["cached_child_list", ""], ["cached_language_list", ""], ["created_at", Mon, 27 Aug 2012 22:33:20 UTC +00:00], ["description", nil], ["forks", 0], ["full_name", "rails/rails"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["label", nil], ["name", nil], ["owner", nil], ["update_success", false], ["updated_at", Mon, 27 Aug 2012 22:33:20 UTC +00:00], ["watchers", 0]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.6ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'categories' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.4ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'languages' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.6ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 1 AND "taggings"."taggable_type" = 'Repo' AND (taggings.context = 'children' AND taggings.tagger_id IS NULL)
+  [1m[36mRepo Load (0.6ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."full_name" IN (NULL)[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mRepo Exists (0.5ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Error: Table 'categories' doesn't exist
+Connecting to database specified by database.yml
+Error: Table 'categories' doesn't exist
+Connecting to database specified by database.yml
+Error: Table 'categories' doesn't exist
+Connecting to database specified by database.yml
+Error: Table 'categories' doesn't exist
+Connecting to database specified by database.yml
+Error: Table 'categories' doesn't exist
+Connecting to database specified by database.yml
+Error: Table 'categories' doesn't exist
+Connecting to database specified by database.yml
+Error: Table 'categories' doesn't exist
+Connecting to database specified by database.yml
+Error: Table 'categories' doesn't exist
+Connecting to database specified by database.yml
+Error: Table 'categories' doesn't exist
+Connecting to database specified by database.yml
+Error: Table 'categories' doesn't exist
+Connecting to database specified by database.yml
+Error: Table 'categories' doesn't exist
+PG::Error: ERROR:  relation "categories" does not exist
+LINE 4:              WHERE a.attrelid = '"categories"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"categories"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36mRepo Load (96.7ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mRepo Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1[0m
+  [1m[35mSQL (95.9ms)[0m  INSERT INTO "repos" ("children_count", "created_at", "description", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "languages", "name", "owner", "stars", "update_success", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"  [["children_count", 0], ["created_at", Sat, 20 Oct 2012 11:05:44 UTC +00:00], ["description", "Ruby on Rails"], ["full_name", "rails/rails"], ["github_updated_at", Sat, 20 Oct 2012 01:27:45 UTC +00:00], ["github_url", "https://github.com/rails/rails"], ["homepage_url", "http://rubyonrails.org"], ["knight_score", 32559], ["languages", 0], ["name", "rails"], ["owner", "rails"], ["stars", 16300], ["update_success", false], ["updated_at", Sat, 20 Oct 2012 11:05:44 UTC +00:00]]
+  [1m[36m (1062.2ms)[0m  [1mCOMMIT[0m
+Updated repo 'rails/rails'
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (19.9ms)[0m  [1mUPDATE "repos" SET "update_success" = 't', "updated_at" = '2012-10-20 11:05:45.595515' WHERE "repos"."id" = 1[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mRepo Load (1.4ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mRepo Exists (10.4ms)[0m  [1mSELECT 1 AS one FROM "repos" WHERE ("repos"."full_name" = 'rails/rails' AND "repos"."id" != 1) LIMIT 1[0m
+  [1m[35mCategory Load (51.4ms)[0m  SELECT DISTINCT "categories".* FROM "categories" INNER JOIN "categorizations" ON "categories"."id" = "categorizations"."category_id" WHERE "categorizations"."repo_id" = 1
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Updated repo 'rails/rails'
+Connecting to database specified by database.yml
+  [1m[36mRepo Load (10.9ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."full_name" = 'rails/rail' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (10.4ms)[0m  [1mINSERT INTO "repos" ("children_count", "created_at", "description", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "languages", "name", "owner", "stars", "update_success", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"[0m  [["children_count", 0], ["created_at", Sat, 20 Oct 2012 11:06:05 UTC +00:00], ["description", nil], ["full_name", "rails/rail"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["languages", 0], ["name", nil], ["owner", nil], ["stars", 0], ["update_success", false], ["updated_at", Sat, 20 Oct 2012 11:06:05 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mRepo Load (1.4ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."full_name" = 'rails/rail' LIMIT 1[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.4ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.3ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'rails/rails' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (12.6ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36mSQL (19.8ms)[0m  [1mINSERT INTO "repos" ("children_count", "created_at", "description", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "languages", "name", "owner", "stars", "update_success", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"[0m  [["children_count", 0], ["created_at", Sat, 20 Oct 2012 13:54:44 UTC +00:00], ["description", nil], ["full_name", "foo/bar2"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["languages", 0], ["name", nil], ["owner", nil], ["stars", 0], ["update_success", false], ["updated_at", Sat, 20 Oct 2012 13:54:44 UTC +00:00]]
+  [1m[35m (1250.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (0.5ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar3' LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "repos" ("children_count", "created_at", "description", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "languages", "name", "owner", "stars", "update_success", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"[0m  [["children_count", 0], ["created_at", Sat, 20 Oct 2012 13:54:46 UTC +00:00], ["description", nil], ["full_name", "foo/bar3"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["languages", 0], ["name", nil], ["owner", nil], ["stars", 0], ["update_success", false], ["updated_at", Sat, 20 Oct 2012 13:54:46 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (0.5ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar4' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "repos" ("children_count", "created_at", "description", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "languages", "name", "owner", "stars", "update_success", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"[0m  [["children_count", 0], ["created_at", Sat, 20 Oct 2012 13:54:46 UTC +00:00], ["description", nil], ["full_name", "foo/bar4"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["languages", 0], ["name", nil], ["owner", nil], ["stars", 0], ["update_success", false], ["updated_at", Sat, 20 Oct 2012 13:54:46 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36mRepo Load (30.9ms)[0m  [1mSELECT DISTINCT "repos".* FROM "repos" INNER JOIN "repo_relationships" ON "repos"."id" = "repo_relationships"."child_id" WHERE "repo_relationships"."parent_id" = 3[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (40.2ms)[0m  [1mINSERT INTO "repo_relationships" ("child_id", "created_at", "parent_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["child_id", 4], ["created_at", Sat, 20 Oct 2012 13:54:46 UTC +00:00], ["parent_id", 3], ["updated_at", Sat, 20 Oct 2012 13:54:46 UTC +00:00]]
+  [1m[35mRepo Load (0.5ms)[0m  SELECT "repos".* FROM "repos" WHERE "repos"."id" = 3 LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "repos" SET "updated_at" = '2012-10-20 13:54:46.411108' WHERE "repos"."id" = 3[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "repos" SET "updated_at" = '2012-10-20 13:54:46.427249' WHERE "repos"."id" = 4
+  [1m[36mSQL (35.9ms)[0m  [1mUPDATE "repos" SET "children_count" = COALESCE("children_count", 0) + 1 WHERE "repos"."id" = 3[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "repo_relationships" ("child_id", "created_at", "parent_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["child_id", 5], ["created_at", Sat, 20 Oct 2012 13:54:46 UTC +00:00], ["parent_id", 3], ["updated_at", Sat, 20 Oct 2012 13:54:46 UTC +00:00]]
+  [1m[36mRepo Load (0.5ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."id" = 3 LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "repos" SET "updated_at" = '2012-10-20 13:54:46.469477' WHERE "repos"."id" = 3
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "repos" SET "updated_at" = '2012-10-20 13:54:46.470699' WHERE "repos"."id" = 5[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "repos" SET "children_count" = COALESCE("children_count", 0) + 1 WHERE "repos"."id" = 3
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mRepo Load (1.0ms)[0m  SELECT DISTINCT "repos".* FROM "repos" INNER JOIN "repo_relationships" ON "repos"."id" = "repo_relationships"."child_id" WHERE "repo_relationships"."parent_id" = 3
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.6ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (2.7ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.5ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar1' LIMIT 1
+  [1m[36mSQL (4.3ms)[0m  [1mINSERT INTO "repos" ("children_count", "created_at", "description", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "languages", "name", "owner", "stars", "update_success", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"[0m  [["children_count", 0], ["created_at", Sat, 20 Oct 2012 14:01:39 UTC +00:00], ["description", nil], ["full_name", "foo/bar1"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["languages", 0], ["name", nil], ["owner", nil], ["stars", 0], ["update_success", false], ["updated_at", Sat, 20 Oct 2012 14:01:39 UTC +00:00]]
+  [1m[35m (1060.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (0.5ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar1' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.3ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.3ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.3ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.9ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar1' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.3ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.4ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo2/bar2' LIMIT 1
+  [1m[36mSQL (13.4ms)[0m  [1mINSERT INTO "repos" ("children_count", "created_at", "description", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "languages", "name", "owner", "stars", "update_success", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"[0m  [["children_count", 0], ["created_at", Sat, 20 Oct 2012 14:23:04 UTC +00:00], ["description", nil], ["full_name", "foo2/bar2"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["languages", 0], ["name", nil], ["owner", nil], ["stars", 0], ["update_success", false], ["updated_at", Sat, 20 Oct 2012 14:23:04 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (0.5ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo3/bar3' LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "repos" ("children_count", "created_at", "description", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "languages", "name", "owner", "stars", "update_success", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"[0m  [["children_count", 0], ["created_at", Sat, 20 Oct 2012 14:23:04 UTC +00:00], ["description", nil], ["full_name", "foo3/bar3"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["languages", 0], ["name", nil], ["owner", nil], ["stars", 0], ["update_success", false], ["updated_at", Sat, 20 Oct 2012 14:23:04 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (0.4ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo4/bar4' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "repos" ("children_count", "created_at", "description", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "languages", "name", "owner", "stars", "update_success", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"[0m  [["children_count", 0], ["created_at", Sat, 20 Oct 2012 14:23:04 UTC +00:00], ["description", nil], ["full_name", "foo4/bar4"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["languages", 0], ["name", nil], ["owner", nil], ["stars", 0], ["update_success", false], ["updated_at", Sat, 20 Oct 2012 14:23:04 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36mRepo Load (2.0ms)[0m  [1mSELECT DISTINCT "repos".* FROM "repos" INNER JOIN "repo_relationships" ON "repos"."id" = "repo_relationships"."child_id" WHERE "repo_relationships"."parent_id" = 7[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "repo_relationships" ("child_id", "created_at", "parent_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["child_id", 8], ["created_at", Sat, 20 Oct 2012 14:23:04 UTC +00:00], ["parent_id", 7], ["updated_at", Sat, 20 Oct 2012 14:23:04 UTC +00:00]]
+  [1m[35mRepo Load (0.6ms)[0m  SELECT "repos".* FROM "repos" WHERE "repos"."id" = 7 LIMIT 1
+  [1m[36mSQL (0.8ms)[0m  [1mUPDATE "repos" SET "updated_at" = '2012-10-20 14:23:04.356553' WHERE "repos"."id" = 7[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "repos" SET "updated_at" = '2012-10-20 14:23:04.397761' WHERE "repos"."id" = 8
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "repos" SET "children_count" = COALESCE("children_count", 0) + 1 WHERE "repos"."id" = 7[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "repo_relationships" ("child_id", "created_at", "parent_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["child_id", 9], ["created_at", Sat, 20 Oct 2012 14:23:04 UTC +00:00], ["parent_id", 7], ["updated_at", Sat, 20 Oct 2012 14:23:04 UTC +00:00]]
+  [1m[36mRepo Load (2.7ms)[0m  [1mSELECT "repos".* FROM "repos" WHERE "repos"."id" = 7 LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "repos" SET "updated_at" = '2012-10-20 14:23:04.407373' WHERE "repos"."id" = 7
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "repos" SET "updated_at" = '2012-10-20 14:23:04.408845' WHERE "repos"."id" = 9[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "repos" SET "children_count" = COALESCE("children_count", 0) + 1 WHERE "repos"."id" = 7
+  [1m[36m (22.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mRepo Load (1.0ms)[0m  SELECT DISTINCT "repos".* FROM "repos" INNER JOIN "repo_relationships" ON "repos"."id" = "repo_relationships"."child_id" WHERE "repo_relationships"."parent_id" = 7
+  [1m[36mRepo Load (0.9ms)[0m  [1mSELECT DISTINCT "repos".* FROM "repos" INNER JOIN "repo_relationships" ON "repos"."id" = "repo_relationships"."child_id" WHERE "repo_relationships"."parent_id" = 7[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.3ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo1/bar1' LIMIT 1
+  [1m[36mSQL (3.3ms)[0m  [1mINSERT INTO "repos" ("children_count", "created_at", "description", "full_name", "github_updated_at", "github_url", "homepage_url", "knight_score", "languages", "name", "owner", "stars", "update_success", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"[0m  [["children_count", 0], ["created_at", Sat, 20 Oct 2012 14:25:59 UTC +00:00], ["description", nil], ["full_name", "foo1/bar1"], ["github_updated_at", nil], ["github_url", nil], ["homepage_url", nil], ["knight_score", 0], ["languages", 0], ["name", nil], ["owner", nil], ["stars", 0], ["update_success", false], ["updated_at", Sat, 20 Oct 2012 14:25:59 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (0.5ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo2/bar2' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.6ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo2/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.3ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo1/bar1' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo2/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.3ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo2/bar2' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRepo Exists (1.2ms)[0m  SELECT 1 AS one FROM "repos" WHERE "repos"."full_name" = 'foo2/bar2' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK

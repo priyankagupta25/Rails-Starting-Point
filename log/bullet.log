@@ -1,0 +1,2089 @@
+2012-10-06 19:08:42[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__4538079604131328748_70207774275500'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__4538079604131328748_70207774275500'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim__857249440548816251_70207772894320'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim__857249440548816251_70207772894320'2012-10-06 19:08:54[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__4538079604131328748_70207774275500'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__4538079604131328748_70207774275500'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim__857249440548816251_70207772894320'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim__857249440548816251_70207772894320'2012-10-06 19:08:57[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-06 19:09:01[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__4538079604131328748_70207774275500'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__4538079604131328748_70207774275500'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim__857249440548816251_70207772894320'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim__857249440548816251_70207772894320'2012-10-06 19:09:47[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-06 19:09:49[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-06 19:10:00[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-06 19:11:34[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-06 19:11:54[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:13:55[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:14:15[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:14:35[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:15:38[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:18:47[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:19:30[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:19:56[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:20:08[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:23:35[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:24:12[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:24:18[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:25:43[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:26:06[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-06 19:26:16[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:26:25[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:27:35[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:27:53[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:28:34[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/index.html.slim:30:in `block in _app_views_repos_index_html_slim__20968521799606014_70223363718540'
+  /Users/thomasklemm/knight/app/views/repos/index.html.slim:3:in `_app_views_repos_index_html_slim__20968521799606014_70223363718540'2012-10-06 19:28:38[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:28:43[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 19:28:53[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:28:59[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:29:02[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:29:05[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/index.html.slim:30:in `block in _app_views_repos_index_html_slim__20968521799606014_70223363718540'
+  /Users/thomasklemm/knight/app/views/repos/index.html.slim:3:in `_app_views_repos_index_html_slim__20968521799606014_70223363718540'2012-10-06 19:29:07[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/index.html.slim:30:in `block in _app_views_repos_index_html_slim__20968521799606014_70223363718540'
+  /Users/thomasklemm/knight/app/views/repos/index.html.slim:3:in `_app_views_repos_index_html_slim__20968521799606014_70223363718540'2012-10-06 19:29:12[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:29:14[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 19:29:18[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 19:29:20[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:29:22[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:30:09[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:30:23[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:30:36[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:30:43[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:31:50[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:32:11[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:33:15[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:33:54[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:34:12[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:14:37[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim___737668599284065738_70349366526580'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim___737668599284065738_70349366526580'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___3379035158895767304_70349495876980'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___3379035158895767304_70349495876980'2012-10-06 19:26:07[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim___737668599284065738_70349366526580'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim___737668599284065738_70349366526580'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___3379035158895767304_70349495876980'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___3379035158895767304_70349495876980'2012-10-06 19:27:34[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim___3551677214131214592_70349371136040'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim___3551677214131214592_70349371136040'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim__823041816610050686_70349369961500'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim___2604461554428429334_70349495608260'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim___2604461554428429334_70349495608260'2012-10-06 19:27:52[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim___3551677214131214592_70349371136040'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim___3551677214131214592_70349371136040'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim__823041816610050686_70349369961500'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim___2604461554428429334_70349495608260'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim___2604461554428429334_70349495608260'2012-10-06 19:31:52[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim___737668599284065738_70349366526580'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim___737668599284065738_70349366526580'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___3379035158895767304_70349495876980'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___3379035158895767304_70349495876980'2012-10-06 19:32:09[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim___3551677214131214592_70349371136040'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim___3551677214131214592_70349371136040'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__3434538418299665174_70349496217380'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__3434538418299665174_70349496217380'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__3434538418299665174_70349496217380'2012-10-06 19:33:17[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim___737668599284065738_70349366526580'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim___737668599284065738_70349366526580'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___3379035158895767304_70349495876980'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___3379035158895767304_70349495876980'2012-10-06 19:34:13[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:repos]
+  Remove from your finder: :include => [:repos]2012-10-06 19:34:29[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim___3551677214131214592_70349371136040'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim___3551677214131214592_70349371136040'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__3434538418299665174_70349496217380'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__3434538418299665174_70349496217380'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__3434538418299665174_70349496217380'2012-10-06 19:34:51[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:categories, :children, :child_parent_relationships]
+  Remove from your finder: :include => [:categories, :children, :child_parent_relationships]2012-10-06 19:36:44[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim___3551677214131214592_70349371136040'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim___3551677214131214592_70349371136040'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__3434538418299665174_70349496217380'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__3434538418299665174_70349496217380'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__3434538418299665174_70349496217380'2012-10-06 19:34:29[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:34:40[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:34:40[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:categories, :children, :child_parent_relationships]
+  Remove from your finder: :include => [:categories, :children, :child_parent_relationships]2012-10-06 19:34:51[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:35:54[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:35:54[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:categories, :children, :child_parent_relationships]
+  Remove from your finder: :include => [:categories, :children, :child_parent_relationships]2012-10-06 19:36:45[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:36:45[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children, :child_parent_relationships]
+  Remove from your finder: :include => [:children, :child_parent_relationships]2012-10-06 19:38:14[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:38:30[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:38:50[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:38:53[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 19:38:58[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:39:04[WARN] user: thomasklemm
+www.knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:39:17[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:39:21[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 19:39:23[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:40:16[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:40:20[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 19:40:35[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 19:40:38[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:40:43[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:40:45[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 19:40:48[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 19:40:51[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:40:58[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:41:01[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 19:41:49[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:42:27[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:42:47[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Category => [:repos]
+  Add to your finder: :include => [:repos]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:25:in `block in _app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/_category.html.slim:4:in `_app_views_categories__category_html_slim__638554956339239320_70223348030840'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:31:in `block in _app_views_categories_index_html_slim___317116813345626009_70223334926900'
+  /Users/thomasklemm/knight/app/views/categories/index.html.slim:3:in `_app_views_categories_index_html_slim___317116813345626009_70223334926900'2012-10-06 19:43:10[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 19:43:13[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:46:00[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:46:15[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 19:46:18[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:46:22[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 19:46:26[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 19:46:27[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 19:46:27[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:46:48[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:47:04[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:46:27[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim___3551677214131214592_70349371136040'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim___3551677214131214592_70349371136040'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__3434538418299665174_70349496217380'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__3434538418299665174_70349496217380'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__3434538418299665174_70349496217380'2012-10-06 19:47:50[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/index.html.slim:30:in `block in _app_views_repos_index_html_slim__20968521799606014_70223363718540'
+  /Users/thomasklemm/knight/app/views/repos/index.html.slim:3:in `_app_views_repos_index_html_slim__20968521799606014_70223363718540'2012-10-06 19:49:45[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:51:13[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:51:53[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:52:05[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:85:in `block (2 levels) in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:82:in `block in _app_views_repos_show_html_slim__1291600735661740317_70223363564100'
+  /Users/thomasklemm/knight/app/views/repos/show.html.slim:3:in `_app_views_repos_show_html_slim__1291600735661740317_70223363564100'2012-10-06 19:52:35[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 19:54:01[WARN] user: thomasklemm
+knight.dev
+N+1 Query detected
+  Repo => [:children]
+  Add to your finder: :include => [:children]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:55:in `block in _app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/shared/_repo.html.slim:3:in `_app_views_shared__repo_html_slim__1571612801539395600_70223365097960'
+  /Users/thomasklemm/knight/app/views/categories/_category_show_repos_list.html.slim:8:in `_app_views_categories__category_show_repos_list_html_slim___862616614596480101_70223364665120'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:27:in `block in _app_views_categories_show_html_slim__42343119033388708_70223364372480'
+  /Users/thomasklemm/knight/app/views/categories/show.html.slim:3:in `_app_views_categories_show_html_slim__42343119033388708_70223364372480'2012-10-06 20:26:11[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:26:17[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:26:36[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:26:39[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:26:45[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:26:49[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:27:15[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:27:27[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:27:31[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:27:36[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:28:23[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:28:29[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:28:31[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:28:53[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:29:02[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:29:09[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 20:29:12[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:12:26[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:12:29[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:18:42[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:20:45[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:22:11[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:25:40[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:34:16[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:42:35[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:46:47[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:50:33[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:50:44[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:52:06[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:54:45[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 21:56:30[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 22:00:43[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 22:02:32[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 22:04:47[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 22:09:04[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 22:09:26[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 22:09:59[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 22:10:10[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 22:11:45[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-06 22:12:10[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-06 22:12:41[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-06 22:24:09[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-06 22:24:23[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-06 22:24:34[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:32:13[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:34:14[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:34:24[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:34:29[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:34:50[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:35:12[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:36:21[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:36:48[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:37:33[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:37:54[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:38:02[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:38:23[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:38:55[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:39:27[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:39:48[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:40:18[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:40:30[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:40:40[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:41:08[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:41:27[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:41:52[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:42:40[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:42:51[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:43:01[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:43:10[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:43:41[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:43:57[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:44:25[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:45:12[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:45:47[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:47:22[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:47:37[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:47:53[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:48:44[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:48:50[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:49:12[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:49:49[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:50:03[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:50:25[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:51:46[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:52:21[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:52:55[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:53:42[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:54:44[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:54:58[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:55:08[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:56:27[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:57:03[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:57:19[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:58:02[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:58:25[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:58:28[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:58:30[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:58:31[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:58:37[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:59:09[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:59:20[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 08:59:56[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:00:37[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:01:14[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:01:34[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:01:55[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:03:24[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:05:50[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:06:00[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:06:07[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:06:14[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:06:24[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:08:13[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:09:44[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:09:54[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:10:01[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:10:14[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:10:47[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:12:28[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:12:36[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:13:48[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:14:01[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:14:27[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:15:06[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:16:14[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:16:17[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:16:18[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:16:19[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:16:20[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:18:03[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 09:18:33[WARN] user: thomasklemm
+www.knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 17:58:53[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 17:58:57[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:00:27[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:01:04[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:01:40[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:02:01[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:02:38[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:03:23[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:03:39[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:04:09[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:04:15[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:04:33[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:04:43[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:04:52[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:05:06[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:05:22[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:05:33[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:05:51[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:06:32[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:06:54[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:07:22[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:07:35[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:07:52[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:07:59[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:08:16[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:08:25[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:08:31[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:10:39[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:11:04[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:11:15[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:11:46[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:11:53[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:12:17[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:12:38[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:13:27[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:13:39[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:13:45[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:14:15[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:15:12[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:15:22[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:15:35[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:15:44[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:16:43[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:16:52[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:16:58[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:17:05[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:30:41[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:31:10[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:32:12[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:32:47[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:33:40[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:33:47[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:33:53[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:34:02[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:34:05[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:34:23[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:34:34[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:35:10[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:35:44[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:35:50[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:36:19[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:36:25[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:36:32[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:36:41[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:36:45[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:37:22[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 19:04:01[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 19:04:13[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 19:07:55[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 19:08:08[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 19:08:28[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 19:08:48[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 19:14:59[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-09 18:01:03[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 18:36:45[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 19:08:29[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Repo => [:children]2012-10-09 22:00:42[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:categories, :categorizations]
+  Remove from your finder: :include => [:categories, :categorizations]2012-10-09 21:43:16[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-09 21:43:19[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-09 21:43:25[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-09 21:43:25[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-09 21:51:03[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Category => [:repos, :categorizations]
+  Remove from your finder: :include => [:repos, :categorizations]2012-10-09 21:58:15[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Category => [:repos, :categorizations]
+  Remove from your finder: :include => [:repos, :categorizations]2012-10-09 22:00:41[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:categories, :categorizations]
+  Remove from your finder: :include => [:categories, :categorizations]2012-10-09 22:01:28[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Category => [:repos, :categorizations]
+  Remove from your finder: :include => [:repos, :categorizations]2012-10-10 00:23:28[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-10 00:24:54[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-10 00:32:20[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-10 00:42:24[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-10 21:16:57[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-10 21:17:01[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-15 15:39:32[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-15 15:39:52[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-15 15:40:22[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-15 15:40:26[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-15 15:40:35[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-15 15:40:39[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-15 15:44:56[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-15 15:45:04[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-15 15:47:08[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-20 17:28:08[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-20 18:03:14[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-20 18:27:32[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-20 18:27:56[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-20 18:28:11[WARN] user: thomasklemm
+knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:36:42[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:37:13[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:38:22[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:39:45[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:40:46[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:40:57[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:41:00[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:categories, :children, :parents]
+  Remove from your finder: :include => [:categories, :children, :parents]2012-10-21 21:41:00[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Category => [:repos]
+  Remove from your finder: :include => [:repos]2012-10-21 21:41:00[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:41:45[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:41:49[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:categories, :children, :parents]
+  Remove from your finder: :include => [:categories, :children, :parents]2012-10-21 21:41:49[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Category => [:repos]
+  Remove from your finder: :include => [:repos]2012-10-21 21:41:49[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:44:00[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:categories, :children, :parents]
+  Remove from your finder: :include => [:categories, :children, :parents]2012-10-21 21:44:00[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Category => [:repos]
+  Remove from your finder: :include => [:repos]2012-10-21 21:44:00[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:49:55[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:categories, :children, :parents]
+  Remove from your finder: :include => [:categories, :children, :parents]2012-10-21 21:49:55[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Category => [:repos]
+  Remove from your finder: :include => [:repos]2012-10-21 21:49:55[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:51:21[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:51:26[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:52:00[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:52:17[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:52:21[WARN] user: thomasklemm
+www.knight.dev
+Unused Eager Loading detected
+  Repo => [:children]
+  Remove from your finder: :include => [:children]2012-10-21 21:54:06[WARN] user: thomasklemm
+knight.dev
+Need Counter Cache
+  Category => [:repos]
