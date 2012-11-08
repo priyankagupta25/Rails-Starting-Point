@@ -2,32 +2,33 @@
 
 / root
 #root
+  .container
 
-  / topbar
-  #topbar
-    .row
-      .twelve.columns
+    / topbar
+    #topbar.row
+      .span12
         = render 'topbar'
 
-  / main and sidebar
-  #main.row
-    / Content
-    #content.twelve.columns
+    / main and sidebar
+    #main.row
+      / Content
+      #content.span12
 
-      / flash messages
-      = render 'flash_messages'
+        / flash messages
+        = render 'flash_messages'
 
-      / main body
-      = yield
+        / main body
+        = yield
 
-  / Root for footer
-  #root_footer
+    / Root for footer
+    #root_footer
 
-/ footer
+/ sticky footer
 #footer
-  .row
-    .twelve.columns
-      = render 'footer'
+  .container
+    .row
+      .span12
+        = render 'footer'
 
 / javascripts in body
 = render 'javascripts_body'

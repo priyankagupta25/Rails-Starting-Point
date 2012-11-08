@@ -70,14 +70,15 @@ group :assets do
   # Sass
   gem 'sass', '>= 3.2.1'
   gem 'sass-rails'
+
   # Compass
   gem 'compass-rails'
-  # Bourbon (sass mixin library)
-  gem 'bourbon'
-  # Zurb Foundation (design framework)
-  gem 'anjlab-bootstrap-rails',
-    require: 'bootstrap-rails',
-    github: 'anjlab/bootstrap-rails'
+
+  # Zurb Foundation (Design Framework)
+  gem 'zurb-foundation'
+
+  # Bourbon (Sass Mixin library)
+  # gem 'bourbon'
 
   ##
   # JS

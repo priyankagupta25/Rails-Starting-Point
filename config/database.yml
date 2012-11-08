@@ -14,7 +14,7 @@
 #
 development:
   adapter: postgresql
-  database: myapp_development
+  database: rails_starting_point_development
   host: localhost
   encoding: unicode
   pool: 20
@@ -41,7 +41,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   adapter: postgresql
-  database: myapp_test
+  database: rails_starting_point_test
   host: localhost
   encoding: unicode
   pool: 20
@@ -49,5 +49,5 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: myapp_production
+  database: rails_starting_point_production
   pool: 20
